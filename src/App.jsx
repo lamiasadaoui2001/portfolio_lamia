@@ -1,10 +1,13 @@
+import NavbarMain from "./components/NavbarMain"
+import "./index.css";
 
 function App() {
 
   return (
-    <div >
-    hhhhh
-    </div>
+    <main>
+      <NavbarMain/>
+    </main>
+
   )
 }
 

@@ -1,15 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-html,
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "Space Grotesk", sans-serif;
-  background: #0E1122;
-  color: #C71B52;
-}
+@layer base {
+  html, body {
+    @apply bg-bleuProfond text-blanc;
+  }}
 
-/*#010326;*/
-/*#0E1122;*/
