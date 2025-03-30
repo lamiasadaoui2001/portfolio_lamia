@@ -15,10 +15,15 @@ export default {
       lilasPâle: "#896f8f",
       noir: "#000000",
     },
-    extend: {},
+    extend: {
+      boxShadow: {
+      framboiseShadow: "0px 0px 20px 0px rgba(199, 27, 82, 0.5)",
+      },
+    },
     fontFamily:{
       body: ['Josefin Sans'],
       special: ['Roboto'],
+      logo : ['Delius'],
     }
   },
   plugins: [],

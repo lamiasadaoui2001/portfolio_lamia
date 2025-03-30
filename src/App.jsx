@@ -4,7 +4,7 @@ import "./index.css";
 function App() {
 
   return (
-    <main>
+    <main className='font-body'> 
       <NavbarMain/>
     </main>
 

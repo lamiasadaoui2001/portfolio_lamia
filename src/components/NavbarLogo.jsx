@@ -3,7 +3,7 @@ import React from 'react'
 const NavbarLogo = () => {
   return (
     <div>
-      <h1 className='text-blanc text-2xl'>
+      <h1 className='text-blanc text-[29px] font-bold font-logo'>
         LS.Tech
       </h1>
     </div>
